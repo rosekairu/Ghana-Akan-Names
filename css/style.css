@@ -1,0 +1,29 @@
+body {
+    background-color: lavender;
+}
+#container {
+    height: 59vh;
+    border-bottom:orange 3px solid;
+}
+video{
+    object-fit: cover;
+    margin-top: 0.2in;
+    margin-left: 2in;
+}
+.overlay{
+    color: crimson;
+    font-family: fantasy;
+    text-align: center;
+}
+
+.highlight{
+    color: darkmagenta;
+    font-weight: 900;
+  }
+
+.card-title {
+    color: crimson;
+}
+.card-body ul li {
+    text-align-last: left;
+}
