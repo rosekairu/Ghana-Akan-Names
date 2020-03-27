@@ -1,39 +1,40 @@
 body {
     background-color: lavender;
 }
-#container {
-    height: 70vh;
+
+section {
+    height: 120vh;
     border-bottom:orange 3px solid;
 }
 
 h1 {
     text-align: left;
     color: crimson;
-    text-indent: 1in;
-}
-h2{
-    text-decoration: underline;
-}
-.overlay{
-    color: crimson;
-    font-family: fantasy;
-    text-align: center;
 }
 
 .highlight{
-    color: darkmagenta;
+    color: crimson;
     font-weight: 900;
-  }
-  .well p{
-      color: crimson;
-      font-size: x-large;
-  }
+}
+
+.well p{
+    margin-top: 0.2in;
+    font-size: large;
+}
+
+h3{
+    text-decoration: underline;
+}
+
+
 h5 {
     margin: 8px;
 }
+
 .card-title {
     color: crimson;
 }
+
 .card-body ul li {
     text-align-last: left;
 }
