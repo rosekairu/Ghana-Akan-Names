@@ -2,13 +2,17 @@ body {
     background-color: lavender;
 }
 #container {
-    height: 59vh;
+    height: 70vh;
     border-bottom:orange 3px solid;
 }
-video{
-    object-fit: cover;
-    margin-top: 0.2in;
-    margin-left: 2in;
+
+h1 {
+    text-align: left;
+    color: crimson;
+    text-indent: 1in;
+}
+h2{
+    text-decoration: underline;
 }
 .overlay{
     color: crimson;
@@ -20,7 +24,13 @@ video{
     color: darkmagenta;
     font-weight: 900;
   }
-
+  .well p{
+      color: crimson;
+      font-size: x-large;
+  }
+h5 {
+    margin: 8px;
+}
 .card-title {
     color: crimson;
 }
