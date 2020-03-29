@@ -1,24 +1,21 @@
 body {
-    background-color: lavender;
+    background-color: darksalmon;
 }
 
 section {
     height: 120vh;
-    border-bottom:orange 3px solid;
 }
 
 h1 {
-    text-align: left;
-    color: crimson;
+    color: darkslategray;
 }
 
 .highlight{
     color: crimson;
-    font-weight: 900;
+    font-weight: bolder;
 }
 
-.well p{
-    margin-top: 0.2in;
+.akan p{
     font-size: large;
 }
 
@@ -26,15 +23,12 @@ h3{
     text-decoration: underline;
 }
 
-
-h5 {
-    margin: 8px;
-}
-
-.card-title {
-    color: crimson;
-}
-
-.card-body ul li {
-    text-align-last: left;
+.form-group{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
