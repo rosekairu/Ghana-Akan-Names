@@ -2,12 +2,14 @@ body {
     background-color: darksalmon;
 }
 
-section {
-    height: 120vh;
+h4 {
+    color: darkslategray;
+    text-align: center;
 }
 
-h1 {
-    color: darkslategray;
+h1 span{
+    text-indent: 30pc;
+    text-decoration: underline;
 }
 
 .highlight{
@@ -19,10 +21,6 @@ h1 {
     font-size: large;
 }
 
-h3{
-    text-decoration: underline;
-}
-
 .form-group{
     width: 50%;
     padding: 12px 20px;
@@ -31,4 +29,10 @@ h3{
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+}
+.click{
+    text-align: center;
+}
+.click :hover{
+    color: crimson
 }
