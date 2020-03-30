@@ -1,108 +1,126 @@
-html{
-    height: 100%;
-}
-body {
-    max-width: 100%;
-    min-height: 100%;
-    background-color:wheat
+html {
+	height: 100%;
 }
 
-.jumbotron{
-    height: 50px;
-    background-color:salmon;
-    padding-top: 10px;
-    border-radius: 80px;
+body {
+	max-width: 100%;
+	min-height: 100%;
+	background-color: wheat
+}
+
+.jumbotron {
+	height: 50px;
+	background-color: salmon;
+	padding-top: 10px;
+	border-radius: 80px;
 }
 
 .jumbotron h1 {
-    font-size: 30px;
-    text-align: center;
+	font-size: 30px;
+	text-align: center;
 }
 
-h1 span{
-    font-size: 55px;
-    text-decoration: underline;
+h1 span {
+	font-size: 55px;
+	text-decoration: underline;
 }
 
-.highlight{
-    color: crimson;
-    font-weight: bolder;
+.highlight {
+	color: crimson;
+	font-weight: bolder;
 }
 
-.container{
-    width: 100%;
-    padding-right: 0px;
-    padding-left: 0px;
-    margin-right: auto;
-    margin-left: auto;
+.container {
+	width: 100%;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
-.row{
-    margin-top: 50px;
-    margin-bottom: 50px;
+.row {
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
-.card-title{
-    margin-bottom: 0.70rem;
-    margin-left: 20px;
+.card-title {
+	margin-bottom: 0.70rem;
+	margin-left: 20px;
 }
 
-.fillform{
-    align-content: center;
+.fillform {
+	align-content: center;
 }
 
-.form{
-    width: 100%;
-    margin-left: 20px;
+.form {
+	width: 100%;
+	margin-left: 20px;
 }
 
-label{
-    color: black;
-    margin-top: 10px;
+label {
+	color: black;
+	margin-top: 10px;
 }
 
-label input{
-    width: 70%;
-    height: 35px;
-    border-color: black;
-    border-width: 0 0 2px 0;
-    background-color: transparent;
-}
-::placeholder{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: italic;
+label input {
+	width: 70%;
+	height: 35px;
+	border-color: black;
+	border-width: 0 0 2px 0;
+	background-color: transparent;
 }
 
-.selectbox select{
-    width: 70%;
-    border-width: 2px;
-    border-color: black;
-    background-color: cadetblue;
-    color: black;
+::placeholder {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-style: italic;
 }
 
-.click{
-    margin-bottom: 5px;
-    text-align: center;
+.selectbox select {
+	width: 70%;
+	border-width: 2px;
+	border-color: black;
+	background-color: cadetblue;
+	color: black;
 }
-.click :hover{
-    color: crimson
+
+.click {
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+.click :hover {
+	color: crimson
 }
 
 #results {
-    height: 230px;
-    width: 90%;
-    padding-top: 17px;
-    padding-bottom: 10px;
-    margin-bottom: 5px;
-    margin-left: 1in;
-    background-color: salmon;
-    border: dotted black;
-    border-radius: 70px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 28px;
-    font-weight: 700;
-    color: black;
-    font-style: italic;
-    text-align: center;
+	height: 180px;
+	width: 90%;
+	padding-top: 17px;
+	padding-bottom: 10px;
+	margin-bottom: 5px;
+	margin-left: 1in;
+	background-color: salmon;
+	border: dotted black;
+	border-radius: 70px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 28px;
+	font-weight: 700;
+	color: black;
+	font-style: italic;
+	text-align: center;
+}
+
+.footer {
+	height: 50px;
+	width: 100%;
+	background-color: #333;
+	display: inline-flex;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 7px;
+	color: white;
+	align-items: center;
+	justify-content: center;
+	font-style: italic;
+	font-weight: 700;
 }
