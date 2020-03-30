@@ -1,16 +1,10 @@
-function displayAkanName()
 let akanform = document.getElementById("akanform");
-
 akanform.addEventListener("submit", (e) => {
-
     e.preventDefault();
 
 
 
     gender = document.getElementById("gender").value
-
-    yearOfBirth = document.getElementById("year").value
-    monthOfBirth = document.getElementById("month").value
     dateOfBirth = document.getElementById("date").value
 
     dateOfBirth = new Date(dateOfBirth);
