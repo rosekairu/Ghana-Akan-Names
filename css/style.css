@@ -91,7 +91,7 @@ label input{
 
 #results {
     height: 230px;
-    width: 80%;
+    width: 90%;
     padding-top: 17px;
     padding-bottom: 10px;
     margin-bottom: 5px;
@@ -102,7 +102,7 @@ label input{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 28px;
     font-weight: 700;
-    color: darksalmon;
+    color: black;
     font-style: italic;
     text-align: center;
 }
