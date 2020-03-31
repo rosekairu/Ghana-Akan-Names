@@ -9,14 +9,13 @@ body {
 }
 
 .jumbotron {
-	height: 50px;
+	height: 80px;
 	background-color: salmon;
-	padding-top: 10px;
+	padding-top: 8px;
 	border-radius: 80px;
 }
 
 .jumbotron h1 {
-	font-size: 30px;
 	text-align: center;
 }
 
@@ -30,30 +29,26 @@ h1 span {
 	font-weight: bolder;
 }
 
-.container {
+.row{
 	width: 100%;
-	padding-right: 0px;
-	padding-left: 0px;
-	margin-right: auto;
-	margin-left: auto;
+	margin-bottom: 350px;
+	height: 100%;
 }
-
-.row {
-	margin-top: 50px;
-	margin-bottom: 50px;
+.column{
+	float: left;
+	width: 50%;
 }
-
+.left{
+	margin-top: 10px;
+	width: 40%;
+}
+.right{
+	margin-top: 10px;
+	background-color: silver;
+	width: 60%;
+}
 .card-title {
 	margin-bottom: 0.70rem;
-	margin-left: 20px;
-}
-
-.fillform {
-	align-content: center;
-}
-
-.form {
-	width: 100%;
 	margin-left: 20px;
 }
 
@@ -64,7 +59,6 @@ label {
 
 label input {
 	width: 70%;
-	height: 35px;
 	border-color: black;
 	border-width: 0 0 2px 0;
 	background-color: transparent;
@@ -75,30 +69,17 @@ label input {
 	font-style: italic;
 }
 
-.selectbox select {
-	width: 70%;
-	border-width: 2px;
-	border-color: black;
-	background-color: cadetblue;
-	color: black;
-}
-
-.click {
-	margin-bottom: 5px;
-	text-align: center;
-}
-
-.click :hover {
-	color: crimson
+.click:hover{
+	color:crimson;
 }
 
 #results {
-	height: 180px;
+	height: 100px;
 	width: 90%;
-	padding-top: 17px;
-	padding-bottom: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
 	margin-bottom: 5px;
-	margin-left: 1in;
+	margin-left: 0.5in;
 	background-color: salmon;
 	border: dotted black;
 	border-radius: 70px;
