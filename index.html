@@ -3,8 +3,7 @@
 
 <head>
 
-   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-   <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
     <title>AkaNameGenerator.com</title>
 </head>
 
@@ -21,44 +20,54 @@
     </div>
     <div class="row">
         <div class="column left">
-           <div class="card-title">
-              <h3>Generate Your Akan Name</h3>
-           </div>
-           <div class="card-body">
-              <p> <span class="highlight"> Akan Names</span> are derived from the Akan people of Ghana who frequently name their children after the day of the week they were born and the order in which they were born. </p>
-              <p> This is a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. </p>
-           </div>
+            <div class="card-title">
+                <h3>Generate Your Akan Name</h3>
+            </div>
+            <div class="card-body">
+                <p> <span class="highlight"> Akan Names</span> are derived from the Akan people of Ghana who frequently name their children after the day of the week they were born and the order in which they were born. </p>
+                <p> This is a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. </p>
+            </div>
         </div>
         <div class="column right">
-           <div class="card-title">
-           <p>To find your Akan Name, fill out this form, </p>
-           <div class="card-body">
-           <form id="akanform">
-              <div class="set">
-                       <label>Month</label><br>
-               <input type="text" id="month" placeholder="Month in digits" required ><br /><br>
-                       <label>Day</label><br>
-                   <input type="text" id="day" placeholder="Day in digits" required ><br /><br>
-                       <label>Year</label><br>
-                <input type="text" id="year" placeholder="Year in digits" required ><br /><br>
-                       <label>Gender</label><br>
-                       <input type="radio" name="gender" id="gender" value="male" required> Male
-                       <br>
-                       <input type="radio" name="gender" id="gender" value="female" required> Female
-                       <br><br>
-                       <div class="click">
-                        <input type="submit" value="Submit" onclick="akanName()">
-                        <input type="reset" value="Reset">
-
-                     </div>
-              </div>
-           </form>
+            <div class="card-title">
+                <p>To find your Akan Name, fill out this form, </p>
+                <div class="card-body">
+                    <form id="akanform">
+                        <div class="set">
+                            <label>Month</label>
+                            <br>
+                            <input type="text" id="month" placeholder="Month in digits" required>
+                            <br>
+                            <label>Day</label>
+                            <br>
+                            <input type="text" id="day" placeholder="Day in digits" required>
+                            <br>
+                            <label>Year</label>
+                            <br>
+                            <input type="text" id="year" placeholder="Year in digits" required>
+                            <br>
+                            <label>Gender</label>
+                            <br>
+                            <input type="radio" name="gender" id="gender" value="male" required> Male
+                            <br>
+                            <input type="radio" name="gender" id="gender" value="female" required> Female
+                            <br>
+                            <div class="click">
+                                <input type="submit" value="Submit" onclick="akanName()">
+                                <input type="reset" value="Reset">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
-        </div>
-        </div>
-     </div>
     </div>
-    <div id="results"></div>
+    <div id="container1">
+        <img id="myImg">
+    </div>
+    <div id="results">
+
+    </div>
     <div class="footer">
         Developed by Rose Kairu &copy; 2020
     </div>
