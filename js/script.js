@@ -32,11 +32,11 @@ function akanName() {
         alert("invalid month");
     } else if (dd < 1 || dd > 31) {
         alert("invalid date");
-    } else if ((mm === "April" || mm === "June" || mm === "September" || mm === "November") && (dd <= 0 || dd > 30)) {
+    } else if ((mm === "April" || mm === "June" || mm === "September" || mm === "November") && (dd <= 0 || dd > 29)) {
         alert("invalid Month");
     } else if (mm === "------") {
         alert("Please select a month!")
-    } else if (yy <= 0 || yy > 2020) {
+    } else if (yy=="" || isNaN(yy) || yy.length!==4 && yy<= 1000 || yy > 10000) {
         alert("Please enter a valid year!")
     } else if ((mm === "February") && (dd <= 0 || dd > 29) && (0 == yy % 4)) {
         alert("Please enter a valid date!")
