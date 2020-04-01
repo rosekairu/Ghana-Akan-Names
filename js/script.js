@@ -1,5 +1,11 @@
 function akanName() {
-	event.preventDefault();
+    event.preventDefault();
+
+    function image(thisImg) {
+        var img = document.createElement("IMG");
+        img.src = "images/" + thisImg;
+        document.getElementById('container1').appendChild(img);
+    }
 
     var year = document.getElementById("year").value;
     var yy = parseInt(year);
@@ -35,49 +41,63 @@ function akanName() {
     } else if ((mm === "February") && (dd <= 0 || dd > 29) && (0 == yy % 4)) {
         alert("Please enter a valid date!")
     } else if ((mm === "February") && (dd <= 0 || dd > 28) && (0 != yy % 4)) {
-		alert("Please enter a valid date!")
-	} else if (Math.round(result) == 0 && gender === "male") {
+        alert("Please enter a valid date!")
+    } else if (Math.round(result) == 0 && gender === "male") {
+        image('malesunday.jpg');
         document.getElementById("results").innerHTML =
-		"You were born on Sunday. Your akan name is " + maleName[0];
+            "You were born on Sunday. Your akan name is " + maleName[0];
     } else if (Math.round(result) == 0 && gender === "female") {
+        image('femalesunday.jpg');
         document.getElementById("results").innerHTML =
-		"You were born on Sunday. Your akan name is " + femaleName[0];
+            "You were born on Sunday. Your akan name is " + femaleName[0];
     } else if (Math.round(result) == 1 && gender === "male") {
+        image('malemonday.jpg');
         document.getElementById("results").innerHTML =
-		"You were born on Monday. Your akan name is " + maleName[1];
+            "You were born on Monday. Your akan name is " + maleName[1];
     } else if (Math.round(result) == 1 && gender === "female") {
+        image('femalemonday.jpg');
         document.getElementById("results").innerHTML =
-		"You were born on Monday. Your akan name is " + femaleName[1];
+            "You were born on Monday. Your akan name is " + femaleName[1];
     } else if (Math.round(result) == 2 && gender === "male") {
+        image('maletuesday.jpg');
         document.getElementById("results").innerHTML =
-		"You were born on Tuesday. Your akan name is " + maleName[2];
+            "You were born on Tuesday. Your akan name is " + maleName[2];
     } else if (Math.round(result) == 2 && gender === "female") {
+        image('femaletuesday.jpg');
         document.getElementById("results").innerHTML =
-		"You were born on Tuesday. Your akan name is " + femaleName[2];
+            "You were born on Tuesday. Your akan name is " + femaleName[2];
     } else if (Math.round(result) == 3 && gender === "male") {
-        document.getElementById("vdisplay").innerHTML =
-		"You were born on Wednesday. Your akan name is " + maleName[3];
+        image('malewednesday.jpg');
+        document.getElementById("results").innerHTML =
+            "You were born on Wednesday. Your akan name is " + maleName[3];
     } else if (Math.round(result) == 3 && gender === "female") {
+        image('femalewednesday.jpg');
         document.getElementById("results").innerHTML =
             "You were born on Wednesday. Your akan name is " + femaleName[3];
     } else if (Math.round(result) == 4 && gender === "male") {
+        image('malethursday.jpg');
         document.getElementById("results").innerHTML =
-		"You were born on Thursday. Your akan name is " + maleName[4];
+            "You were born on Thursday. Your akan name is " + maleName[4];
     } else if (Math.round(result) == 4 && gender === "female") {
+        image('femalethursday.jpg');
         document.getElementById("results").innerHTML =
-		"You were born on Thursday. Your akan name is " + femaleName[4];
+            "You were born on Thursday. Your akan name is " + femaleName[4];
     } else if (Math.round(result) == 5 && gender === "male") {
+        image('malefriday.jpg');
         document.getElementById("results").innerHTML =
-		"You were born on Friday. Your akan name is " + maleName[5];
+            "You were born on Friday. Your akan name is " + maleName[5];
     } else if (Math.round(result) == 5 && gender === "female") {
+        image('femalefriday.jpg');
         document.getElementById("results").innerHTML =
-		"You were born on Friday. Your akan name is " + femaleName[5];
+            "You were born on Friday. Your akan name is " + femaleName[5];
     } else if (Math.round(result) == 6 && gender === "male") {
+        image('malesaturday.jpg');
         document.getElementById("results").innerHTML =
-		"You were born on Saturday. Your akan name is " + maleName[6];
+            "You were born on Saturday. Your akan name is " + maleName[6];
     } else if (Math.round(result) == 6 && gender === "female") {
+        image('femalesaturday.jpg');
         document.getElementById("results").innerHTML =
-		"You were born on Saturday. Your akan name is " + femaleName[6];
+            "You were born on Saturday. Your akan name is " + femaleName[6];
     } else {
         alert("Fill in all required fields");
     }

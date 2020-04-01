@@ -11,8 +11,6 @@ body {
 .jumbotron {
 	height: 80px;
 	background-color: salmon;
-	padding-top: 8px;
-	border-radius: 80px;
 }
 
 .jumbotron h1 {
@@ -29,24 +27,28 @@ h1 span {
 	font-weight: bolder;
 }
 
-.row{
+.row {
 	width: 100%;
-	margin-bottom: 350px;
+	margin-bottom: 300px;
 	height: 100%;
 }
-.column{
+
+.column {
 	float: left;
 	width: 50%;
 }
-.left{
+
+.left {
 	margin-top: 10px;
 	width: 40%;
 }
-.right{
+
+.right {
 	margin-top: 10px;
-	background-color: silver;
 	width: 60%;
+	background-color: silver;
 }
+
 .card-title {
 	margin-bottom: 0.70rem;
 	margin-left: 20px;
@@ -69,17 +71,19 @@ label input {
 	font-style: italic;
 }
 
-.click:hover{
-	color:crimson;
+#container1 {
+	height: 450px;
+	width: 100%;
+	background-color: turquoise;
+	margin-bottom: 10px;
+	border-radius: 80px;
 }
 
 #results {
-	height: 100px;
-	width: 90%;
-	padding-top: 0px;
-	padding-bottom: 0px;
+	height: 150px;
+	width: 95%;
 	margin-bottom: 5px;
-	margin-left: 0.5in;
+	margin-left: 0.2in;
 	background-color: salmon;
 	border: dotted black;
 	border-radius: 70px;
@@ -96,9 +100,6 @@ label input {
 	width: 100%;
 	background-color: #333;
 	display: inline-flex;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left: 7px;
 	color: white;
 	align-items: center;
 	justify-content: center;
