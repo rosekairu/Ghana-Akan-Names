@@ -14,7 +14,7 @@ function akanName() {
     var day = document.getElementById("day").value;
     var dd = parseInt(day);
     var cc = (yy - 1) / 100 + 1;
-    var maleName = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+    var maleName = ["Kwasi", "Kwadwo", "Kwabena", "Kweku", "Yaw", "Kofi", "Kwame"];
     var femaleName = ["Akosua", " Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
     var result =
@@ -101,4 +101,5 @@ function akanName() {
     } else {
         alert("Fill in all required fields");
     }
+    document.getElementById("container1").reset();
 }
