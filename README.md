@@ -1,4 +1,4 @@
-# Ghana-Akan-Names
+# Ghanaian-Akan-Names
 #### A web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.
 Current version date 2020
 #### By **Rose Kairu**
