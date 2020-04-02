@@ -23,5 +23,5 @@ The Ghanaian Akan Name Generator website was developed using HTML5, CSS, Bootstr
 * JAVASCRIPT - Was used to make the page interractive.
 ## Support and contact details
 Incase of any issues arising from using the Ghanaian Akan Name Generator website kindly reach out to me via email at rosekairu@gmail.com
-### License
-* [MIT License](https://github.com/rosekairu/Ghana-Akan-Names/blob/master/LICENSE)
+###[MIT License](https://github.com/rosekairu/Ghana-Akan-Names/blob/master/LICENSE)
+Copyright (c) 2020 *Rose Kairu**
