@@ -1,107 +1,115 @@
 html {
-	height: 100%;
+    height: 100%;
 }
 
 body {
-	max-width: 100%;
-	min-height: 100%;
-	background-color: wheat
+    max-width: 100%;
+    min-height: 100%;
+    background-color: wheat
 }
 
 .jumbotron {
-	height: 80px;
-	background-color: salmon;
+    height: 80px;
+    background-color: salmon;
 }
 
 .jumbotron h1 {
-	text-align: center;
+    text-align: center;
 }
 
 h1 span {
-	font-size: 55px;
-	text-decoration: underline;
+    font-size: 55px;
+    text-decoration: underline;
 }
 
 .highlight {
-	color: crimson;
-	font-weight: bolder;
+    color: crimson;
+    font-weight: bolder;
 }
 
 .row {
-	width: 100%;
-	margin-bottom: 300px;
-	height: 100%;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 300px;
 }
 
 .column {
-	float: left;
-	width: 50%;
+    float: left;
+    width: 50%;
 }
 
 .left {
-	margin-top: 10px;
-	width: 40%;
+    margin-top: 10px;
+    width: 40%;
 }
 
 .right {
-	margin-top: 10px;
-	width: 60%;
-	background-color: silver;
+    margin-top: 10px;
+    background-color: silver;
+    width: 60%;
 }
 
 .card-title {
-	margin-bottom: 0.70rem;
-	margin-left: 20px;
+    margin-bottom: 0.70rem;
+    margin-left: 20px;
 }
 
 label {
-	color: black;
-	margin-top: 10px;
+    color: black;
+    margin-top: 10px;
 }
 
 label input {
-	width: 70%;
-	border-color: black;
-	border-width: 0 0 2px 0;
-	background-color: transparent;
+    width: 70%;
+    border-color: black;
+    border-width: 0 0 2px 0;
+    background-color: transparent;
 }
 
 ::placeholder {
-	font-family: Georgia, 'Times New Roman', Times, serif;
-	font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
 }
 
 #container1 {
-	height: 460px;
-	width: 460px;
-	background-color: turquoise;
-	margin-bottom: 10px;
+    float: left;
+    height: 430px;
+    width: 50%;
+    background-color: turquoise;
+    margin-bottom: 10px;
+    border: dotted blueviolet;
+    border-radius: 70px;
+    display: flex;
+    justify-content: center;
 }
 
 #results {
-	height: 150px;
-	width: 95%;
-	margin-bottom: 5px;
-	margin-left: 0.2in;
-	background-color: salmon;
-	border: dotted black;
-	border-radius: 70px;
-	font-family: Georgia, 'Times New Roman', Times, serif;
-	font-size: 28px;
-	font-weight: 700;
-	color: black;
-	font-style: italic;
-	text-align: center;
+    float: right;
+    height: 450px;
+    width: 50%;
+    margin-top: -450px;
+    margin-bottom: 10px;
+    margin-left: 0.2in;
+    background-color: salmon;
+    border: dotted black;
+    border-radius: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 6em;
+    color: black;
+    font-style: italic;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    line-height: 1em;
 }
 
 .footer {
-	height: 50px;
-	width: 100%;
-	background-color: #333;
-	display: inline-flex;
-	color: white;
-	align-items: center;
-	justify-content: center;
-	font-style: italic;
-	font-weight: 700;
+    height: 50px;
+    width: 100%;
+    background-color: #333;
+    display: inline-flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    font-weight: 700;
 }
