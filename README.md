@@ -9,6 +9,7 @@ Akan names are derived from Ghanian culture. Frequently in Ghana, children are g
 * Enter your birthday through the form 
 * Choose your gender.
 * Click the submit button to see what your Akan name would be.
+![screenshot](https://user-images.githubusercontent.com/61992389/78309408-84dc8000-7553-11ea-8950-34f0f32784cb.png)
 ## Setup/Installation Requirements
 * There is no need to install the application, enter your details online and get your results.
 * Click the link below for the live project.
