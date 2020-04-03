@@ -9,8 +9,8 @@ body {
 }
 
 .jumbotron {
-    height: 80px;
-    background-color: salmon;
+    height: 40px;
+    background-color: cadetblue;
 }
 
 .jumbotron h1 {
@@ -84,7 +84,7 @@ label input {
     width: 48%;
     background-color: turquoise;
     margin-bottom: 3px;
-    border: dotted blueviolet;
+    border: dotted rgb(130, 18, 235);
     border-radius: 80px;
     display: flex;
     justify-content: center;
@@ -96,7 +96,7 @@ label input {
     width: 50%;
     margin-bottom: 10px;
     margin-left: 0.2in;
-    background-color: salmon;
+    background-color: cadetblue;
     border: dotted black;
     border-radius: 80px;
     font-family: Georgia, 'Times New Roman', Times, serif;
