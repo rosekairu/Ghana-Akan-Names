@@ -49,7 +49,7 @@ function akanName() {
         alert("Invalid Date. This Month Has Only 30 Days");
     } else if (mm === "------") {
         alert("Please Enter A Month!")
-    } else if (yy ==isNaN || yy.length !== 4 && yy < 1000 || yy > 10000) {
+    } else if (yy == isNaN || yy.length !== 4 && yy < 1000 || yy > 10000) {
         alert("Please Enter A Valid Year!")
     } else if (dayOfTheWeek == 0 && gender === "male") {
         image('malesunday.jpg');
@@ -110,5 +110,5 @@ function akanName() {
     } else {
         alert("Fill in all required fields");
     }
-    
+
 }
