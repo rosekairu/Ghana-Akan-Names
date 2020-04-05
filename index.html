@@ -8,69 +8,89 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="jumbotron">
-            <h1>
-                <span style='color: red'>A</span>
-                <span style='color: yellow;'>K</span>
-                <span style='color: black'>A</span>
-                <span style='color: darkgreen'>N</span> NAME GENERATOR
-            </h1>
-        </div>
-    </div>
-    <div class="row">
-        <div class="column left">
-            <div class="card-title">
-                <h3>Ghanaian Akan Names</h3>
+    <section id="showcase">
+        <h1>The Akans consider themselves one nation. </h1>
+        <p><span class="highlight"> Akan </span> means first, foremost, indicating the enlightened and civilized.</p>
+        <p> Akan culture is one of the purest West African cultures that still exist today.</p>
+        <p> The Akan people of Ghana frequently name their children after the day of the week they were born and the
+            order in which they were born. These "day names" have further meanings concerning the soul and character of
+            the person.</p>
+        <p> UN Secretary General Kofi Annan ("Kofi" = male for "born on a Friday").
+            Ghana's First President Dr. Kwame Nkrumah ("Kwame" = male for "born on a Saturday").
+            Writer Ama Ata Aidoo ("Ama" = female name for “born on Saturday” and “Ata” shows that she is a twin).</p>
+        <a href="#section2" class="button">Let's find your Akan Name.</a>
+
+    </section>
+    <div id="section2">
+        <div class="container">
+            <div class="jumbotron">
+                <h1>
+                    <span style='color: red'>A</span>
+                    <span style='color: yellow;'>K</span>
+                    <span style='color: black'>A</span>
+                    <span style='color: darkgreen'>N</span> NAME GENERATOR
+                </h1>
             </div>
-            <div class="card-body">
-                <p> <span class="highlight"> Akan Names</span> are derived from the Akan people of Ghana who frequently
-                    name their children after the day of the week they were born and the order in which they were born.
-                </p>
-                <p> This web application will take your birthday details and calculate the day of the week you were born
-                    and then, depending on your gender output <span class="highlight">Your Ghanaian Akan Name.</span>
-                </p>
-            </div>
         </div>
-        <div class="column right">
-            <div class="card-title">
-                <h3>Generate Your Akan Name</h3>
-                <p>To find your Akan Name, fill out this form, </p>
+        <div class="row">
+            <div class="column left">
+                <div class="card-title">
+                    <h3>Ghanaian Akan Names</h3>
+                </div>
                 <div class="card-body">
-                    <form id="akanform">
-                        <label>Month</label>
-                        <br>
-                        <input type="text" id="month" placeholder="Enter Month" required>
-                        <br>
-                        <label>Day</label>
-                        <br>
-                        <input type="text" id="day" placeholder="Enter Day" required>
-                        <br>
-                        <label>Year</label>
-                        <br>
-                        <input type="text" id="year" placeholder="Enter Year" maxlength="4" pattern="\d{4}" required>
-                        <br>
-                        <label>Gender</label>
-                        <br>
-                        <input type="radio" name="gender" id="gender" value="male" checked> Male
-                        <br>
-                        <input type="radio" name="gender" id="gender" value="female" required> Female
-                        <br>
-                        <div class="click">
-                            <input type="submit" id="myButton" value="Submit" onclick="akanName()">
-                            <input type="reset" value="Reset" onclick="document.location.reload()">
-                        </div>
-                    </form>
+                    <p> <span class="highlight"> Akan Names</span> are derived from the Akan people of Ghana who
+                        frequently
+                        name their children after the day of the week they were born and the order in which they were
+                        born.
+                    </p>
+                    <p> This web application will take your birthday details and calculate the day of the week you were
+                        born
+                        and then, depending on your gender output <span class="highlight">Your Ghanaian Akan
+                            Name.</span>
+                    </p>
+                </div>
+            </div>
+            <div class="column right">
+                <div class="card-title">
+                    <h3>Generate Your Akan Name</h3>
+                    <p>To find your Akan Name, fill out this form, </p>
+                    <div class="card-body">
+                        <form id="akanform">
+                            <label>Month</label>
+                            <br>
+                            <input type="text" id="month" placeholder="Enter Month" required>
+                            <br>
+                            <label>Day</label>
+                            <br>
+                            <input type="text" id="day" placeholder="Enter Day" required>
+                            <br>
+                            <label>Year</label>
+                            <br>
+                            <input type="text" id="year" placeholder="Enter Year" maxlength="4" pattern="\d{4}"
+                                required>
+                            <br>
+                            <label>Gender</label>
+                            <br>
+                            <input type="radio" name="gender" id="gender" value="male" required> Male
+                            <br>
+                            <input type="radio" name="gender" id="gender" value="female" checked> Female
+                            <br>
+                            <div class="click">
+                                <input type="submit" id="myButton" value="Submit" onclick="akanName()">
+                                <input type="reset" value="Reset" onclick="document.location.reload()">
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div id="container1">
-        <img id="myImg">
-    </div>
-    <div id="results"> </div>
-    <div class="footer">
-        Designed and Developed by Rose Kairu &copy; 2020
+        <div id="container1">
+            <img id="myImg">
+        </div>
+        <div id="results"> </div>
+        <div class="footer">
+            Designed and Developed by Rose Kairu &copy; 2020
+        </div>
     </div>
     <script src="js/script.js"></script>
 </body>
