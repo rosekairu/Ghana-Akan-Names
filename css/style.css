@@ -1,5 +1,6 @@
 html {
-    height: 100%;
+    height: 100vh;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -8,8 +9,59 @@ body {
     background-color: wheat
 }
 
+#showcase {
+    background-image: url("../images/bg5.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    line-height: 2;
+    border-bottom: orange 3px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    font-weight: 800;
+}
+
+#showcase h1 {
+    color: darkcyan;
+    font-size: larger;
+    text-align: right;
+}
+
+.highlight {
+    color: darkmagenta;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+#showcase p {
+    color: gold;
+    font-size: large;
+}
+
+#showcase .button {
+    font-size: larger;
+    text-decoration: none;
+    color: rgb(202, 29, 202);
+    border: darkslateblue;
+    border: radius 10px;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+#showcase .button:hover {
+    background-color: darkslateblue;
+    color: white;
+}
+
+#section2 {
+    height: 700px;
+}
+
 .jumbotron {
-    height: 40px;
     background-color: cadetblue;
 }
 
@@ -29,7 +81,7 @@ h1 span {
 
 .row {
     width: 100%;
-    height: 100%;
+    height: 70%;
     margin-bottom: 10px;
 }
 
