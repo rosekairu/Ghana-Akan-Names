@@ -15,7 +15,7 @@ function akanName() {
     var mm = parseInt(month);
     var day = document.getElementById("day").value;
     var dd = parseInt(day);
-    var cc = (yy - 1) / 100 + 1;
+    var cc = yy / 100 ;
     var dateOfBirth = new Date;
     var dayOfTheWeek = dateOfBirth.getDay();
     var maleName = ["Kwesi", "Kojo/Kwadwo", "Kwabena", "Kweku", "Yaw", "Kofi", "Kwame"];
@@ -108,7 +108,7 @@ function akanName() {
     } else if (dayOfTheWeek == 6 && gender === "female") {
         image('femalesaturday.jpg');
         document.getElementById("results").innerHTML =
-            "You were born on " + weekDay[6] + ". " + "Your Akan ame is " + femaleName[6];
+            "You were born on " + weekDay[6] + ". " + "Your Akan name is " + femaleName[6];
     } else {
         alert("Fill in all required fields");
     }
