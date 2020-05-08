@@ -1,3 +1,6 @@
+
+[![codebeat badge](https://codebeat.co/badges/c62e60f1-5eed-4af1-8b2c-9d5a8b7b5cab)](https://codebeat.co/projects/github-com-rosekairu-ghana-akan-names-master)
+
 # Ghanaian-Akan-Names
 #### A web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.
 Current version date 2020
